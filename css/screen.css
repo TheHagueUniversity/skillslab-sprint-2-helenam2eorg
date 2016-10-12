@@ -1,0 +1,110 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body {  font-family: "Open Sans", sans-serif; font-size: 16px; color: #555: margin: 0; padding: o;}/* CSS Document for Screens */
+
+/* Text */
+
+h1 { margin: 0 0 1em 0; font-size 2.8em font-weight: 700; }
+h2 { margin: 0 0 .5em 0; font-size 1.6em font-weight: 700; line-height: 1.1em; }
+h3 { margin: 0 0 .5em 0; font-size 1.3em font-weight: 700; }
+h4 { margin: 0 0 1.5em 0; font-size 1em font-weight: 700; }
+
+p { margin: 0 0 1em 0; }
+
+a { color: #007eff; }
+a:visited { color: #65b1ff ; }
+
+
+a.btn { font.size: 1.2em; text-align: center; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; }
+
+/* Header */
+
+header { height: 144px; background: #ffffff url(../images/banner.jpg) no-repeat center bottom; position: relative; }
+
+/* Section - All */
+section{ padding: 55px 30px;  }
+section::after { content: ''; display: block; clear: both; }
+
+
+/* Section - Main */
+section.main { margin-top: 55px; margin-bottom: 30px; padding: 0; }
+section.main aside { width:33%; float: left; text-align:center; }
+
+section.main .content { margin:15px; backround: no-repeat center top; background-size: 75px 75px; padding-top: 85px; }
+
+section.main aside h3 a { color: #000; text-decoration: none; }
+section.main aside h3 a:hover { text-decoration: underline; } 
+
+section.main aside .content.home { background: no-repeat top; background-image: url(../images/Palmtree4.svg); ;}
+section.main aside .content.school { background: no-repeat top; background-image: url(../images/Palmtree1.png); }
+section.main aside .content.study { background: no-repeat top; background-image: url(../images/Palmtree1.png); }
+
+
+/* Section - Atmosphere */
+section.atmosphere { background-color: #D3D3D3; padding-top: 30px; padding-bottom:30px; color:#fff; }
+
+section.atmosphere article { padding: 0 515px 0 20px; background: url(../images/mina.jpg) no-repeat 0 5px; min-height: 150px; }
+
+section.atmosphere blockquote { 
+   margin: 0; width:32%;
+   color: "fff;
+   background-color: #D3D3D3;
+   position: absolute; center: 0; right:4%;
+
+ }
+
+ section.atmosphere blockquote p { margin: 30px 30px 20px 50px; }
+ section.atmosphere blockquote p.quote { font-style: italic; font-style: 3em; }
+ 
+
+ /* Navigation */
+
+ nav { background-color: #D3D3D3;
+   position: absolute;
+   top: 144px; left: 0px;
+   padding: 50 px 0 0 0;
+   width: 100%;
+  }
+
+  nav::after { content:''; display: block; clear:both; }
+
+  nav ul { list-style: none; margin: 0; padding: 0px; }
+
+ nav ul li:hover { background-color: #D3D3D3; }
+
+  nav ul li a { 
+     display: inline-block;
+     color: #fff;
+     padding: 10px 20px;
+     text-decoration: none;
+     width: 156px;
+     position: center;
+     
+   }
+
+nav ul li a: visited { color: #fff; } 
+
+nav ul li a:hover { background-color: #E1E1E1; }  
+
+/* top-level */
+
+nav > ul { padding-left: 200px;  }
+nav > ul > li { float: left;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{}{}{}{}{}{}{}{}{}{}{}
