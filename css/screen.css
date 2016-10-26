@@ -34,7 +34,7 @@ section.main aside { width:33%; float: left; text-align:center; }
 section.main .content { margin:15px; backround: no-repeat center top; background-size: 75px 75px; padding-top: 85px; }
 
 section.main aside h3 a { color: #000; text-decoration: none; }
-section.main aside h3 a:hover { text-decoration: underline; } 
+section.main aside h3 a:hover { text-decoration: underline; }
 
 section.main aside .content.home { background: no-repeat top; background-image: url(../images/Palmtree4.svg); ;}
 section.main aside .content.school { background: no-repeat top; background-image: url(../images/Palmtree1.png); }
@@ -46,8 +46,9 @@ section.atmosphere { background-color: #D3D3D3; padding-top: 30px; padding-botto
 
 section.atmosphere article { padding: 0 515px 0 20px; background: url(../images/mina.jpg) no-repeat 0 5px; min-height: 150px; }
 
-section.atmosphere blockquote { 
+section.atmosphere blockquote {
    margin: 0; width:32%;
+/* the quotes below are breaking your CSS */
    color: "fff;
    background-color: #D3D3D3;
    position: absolute; center: 0; right:4%;
@@ -56,7 +57,7 @@ section.atmosphere blockquote {
 
  section.atmosphere blockquote p { margin: 30px 30px 20px 50px; }
  section.atmosphere blockquote p.quote { font-style: italic; font-style: 3em; }
- 
+
 
  /* Navigation */
 
@@ -73,19 +74,19 @@ section.atmosphere blockquote {
 
  nav ul li:hover { background-color: #D3D3D3; }
 
-  nav ul li a { 
+  nav ul li a {
      display: inline-block;
      color: #fff;
      padding: 10px 20px;
      text-decoration: none;
      width: 156px;
      position: center;
-     
+
    }
 
-nav ul li a: visited { color: #fff; } 
+nav ul li a: visited { color: #fff; }
 
-nav ul li a:hover { background-color: #E1E1E1; }  
+nav ul li a:hover { background-color: #E1E1E1; }
 
 /* top-level */
 

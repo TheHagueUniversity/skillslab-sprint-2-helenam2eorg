@@ -1,10 +1,12 @@
+<!-- Your're missing the Doctype -->
 <html lang="en">
 
 
  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+    <!-- You should use <meta charset="utf-8"-->
     <meta name="description" content="A page for Helena's webpage" />
-    <title>Life according to Helena</title>    
+    <title>Life according to Helena</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
  </head>
 
@@ -14,7 +16,7 @@
 
     <header>
         <div class="hero">
-        
+
 
         </div>
 
@@ -22,30 +24,34 @@
     </header>
 
     <section class="main">
-        
+        <!--
+        Asides are used for less important content, for example a sidebar with related newsitems
+        You should use <section> instead of <aside>, you can use sections within sections or
+        change the <section class="main"> into a plain <div class="main">
+        -->
         <aside>
-            <div class="content home"> 
+            <div class="content home">
               <h3><a href="#"> My Home </a></h3>
               <p> Den Haag Netherlands </p>
-                
+
 
             </div>
         </aside>
 
         <aside>
-            <div class="content school"> 
+            <div class="content school">
              <h3><a href="#"> My School </a></h3>
             <p> The Hague University of Applied Sciences </p>
-                
+
 
             </div>
         </aside>
 
         <aside>
-            <div class="content study"> 
+            <div class="content study">
              <h3><a href="#"> My Study </a></h3>
               <p> Communication and Multimedia Design User Experience Design </p>
-                
+
 
             </div>
         </aside>
@@ -54,7 +60,7 @@
     </section>
 
     <section class="atmosphere">
-        
+
 
         <blockquote>
             <p class="quote"> Life is either a daring ADVENTURE or nothing </p>
@@ -71,12 +77,12 @@
     <nav>
         <ul>
             <li>
-               <a title="Home" href="#"> Home </a> 
+               <a title="Home" href="#"> Home </a>
 
             </li>
 
             <li>
-               <a title="About Me" href="#"> About Me </a> 
+               <a title="About Me" href="#"> About Me </a>
 
             </li>
 
@@ -86,7 +92,7 @@
             </li>
 
             <li>
-               <a title="Travel" href="#">  <img src="images/Travelbutton.jpg" style: width="156px"; height:"55px"> </a> 
+               <a title="Travel" href="#">  <img src="images/Travelbutton.jpg" style: width="156px"; height:"55px"> </a>
 
             </li>
 
@@ -99,10 +105,10 @@
 
 
   </div>
-    
-    
-    
 
-                  
+  <!-- very well done overall ! -->  
+
+
+
  </body>
 </html>
