@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A page for Helena's webpage" />
+    <title>Life according to Helena</title>    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/screen.css">
+ </head>
+
+ <body>
+
+  <div id="page">
+
+    <header>
+       <div class="hero"; style= top: 80px; left: 300px;>
+          <a href="home.html">
+            <img src="images/Banner.jpg">
+          </a>
+        </div>
+
+
+    </header>          
+ 
+
+    <nav>
+        <ul>
+            <li>
+               <a title="Home" href="home.html"> Home </a> 
+            </li>
+
+            <li>
+               <a title="About Me" href="About.html"> About Me </a> 
+            </li>
+
+            <li>
+               <a title="My study" href="study.html"> My study </a>
+            </li>
+
+            <li class="active">
+               <a title="Contact" href="Contact.html"> Contact </a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+ <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Send your lovely message :) </button>
+    </div>
+</form>
+
+
+<div id="map" style="width:100%;height:300px"></div>
+<h2> Current Location: Tha Hague, Netherlands </h2>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(52.078663, 4.288788), 
+    zoom: 13
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+ <footer>
+    <p id="footer">
+    &copy; Copyright by Helena Mäeorg.
+        </p>
+ </footer>
+
+     </body>
+</html>
