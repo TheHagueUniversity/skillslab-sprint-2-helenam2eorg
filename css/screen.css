@@ -1,12 +1,10 @@
 
+/* Font */
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
-
 body {  font-family: "Open Sans", sans-serif; font-size: 16px; color: #555: margin: 0; padding: o;}/* CSS Document for Screens */
 
 /* Text */
-
 h1 { 
-  /*margin: 0 0 1em 0; */
   font-size 2.8em;
   font-weight: 700; 
 }
@@ -16,15 +14,11 @@ h3 { margin: 0 0 .5em 0; font-size 1.3em font-weight: 700; }
 h4 { margin: 0 0 1.5em 0; font-size 1em font-weight: 700; }
 
 p { margin: 0 0 1em 0; }
-
 a { color: #007eff; }
 a:visited { color: #ffffff ; }
-
-
 a.btn { font.size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; }
 
 /* Header */
-
 header { height: 144px; background: #ffffff url(../images/banner.jpg) no-repeat center bottom; position: relative; }
 
 /* Section - All */
@@ -48,30 +42,30 @@ section.main aside .content.study { background: no-repeat top; background-image:
 
 /* Section - Atmosphere */
 section.atmosphere { background-color: #D3D3D3; padding-top: 30px; padding-bottom:30px; color:#fff; }
-
 section.atmosphere article { padding: 0 515px 0 20px; background: url(../images/mina.jpg) no-repeat 0 5px; min-height: 150px; }
 
-<<<<<<< Updated upstream
 section.atmosphere blockquote {
-   margin: 0; width:32%;
-/* the quotes below are breaking your CSS */
-=======
-section.atmosphere blockquote { 
-  font-size: 32px;
-   margin: 0; width:34%;
->>>>>>> Stashed changes
-   color: "fff;
-   background-color: #D3D3D3;
-   position: absolute; center: 0; right:4%;
-
+   margin: 0; 
+   float: right;
+   font-size: 32px;
+   width: 500px;
+   font-style: italic;
  }
 
- section.atmosphere blockquote p { margin: 30px 30px 20px 50px; }
- section.atmosphere blockquote p.quote { font-style: italic; font-style: 3em; }
+/* Section - About */
+
+section.about { text-align: justify; }
+section.about aside { float: right; }
+section.about div { width: 680px; }
+
+/* Section - Study */
+
+section.study { text-align: justify; }
+section.study aside { float: right; }
+section.study div { width: 570px; }
 
 
  /* Navigation */
-
  nav { background-color: #D3D3D3;
    position: absolute;
    top: 144px; left: 0px;
@@ -80,22 +74,13 @@ section.atmosphere blockquote {
   }
 
   nav::after { content:''; display: block; clear:both; }
-
   nav ul { list-style: none; margin: 0; padding: 0px; }
+  nav li { text-align: center; }
 
-  nav li { text-align: center; 
- }
+ nav li.active a { color: #1a0023; }
+ nav ul li:hover, nav ul li.active { background-color: #E1E1E1; }
 
- nav li.active a {
-  color: #1a0023;
- }
-
- nav ul li:hover, nav ul li.active { background-color: #E1E1E1; 
- }
-
-
-
-  nav ul li a {
+ nav ul li a {
      display: inline-block;
      color: #ffffff;
      font-size: 18px;
@@ -103,25 +88,17 @@ section.atmosphere blockquote {
      text-decoration: none;
      width: 156px;
      position: center;
-
    }
 
 nav ul li a: visited { color: #fff; }
-
-nav ul li a:hover { background-color: #E1E1E1; }
-
+nav ul li a: hover { background-color: #E1E1E1; }
 
 
 /* top-level */
-
 nav > ul { padding-left: 200px;  }
 nav > ul > li { float: left;  }
 
-
-
-
 /* contact form */
-
 form {
     margin: 80px;
     width: 460px;
@@ -156,42 +133,27 @@ button {
 }
 
 /* Footer */
-
 footer {
     bottom: 0;
     width: 644px;
     height: 20px;
     padding-top: 30px;
     padding-bottom: 5px;
-
 }
 
 #footer{
-    
     color: black;
     font-size: 10px;
     text-align: left;
 }
 
-
 .hero {
 text-align: center;
-
 }
 
 /* Figure */
-
 figure {
   margin:0 ;
 }
 
 
-
-
-
-
-
-
-
-
-{}{}{}{}{}{}{}{}{}{}{}
